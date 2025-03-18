@@ -1,0 +1,49 @@
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# IDE settings (Visual Studio, VS Code, Rider)
+.vscode/
+.idea/
+*.vs/
+
+# Dependency management
+packages/
+node_modules/
+
+# NuGet packages
+*.nupkg
+project.lock.json
+
+# Temporary files
+*.tmp
+*.cache
+*.pdb
+*.pidb
+
+# Entity Framework Migrations
+Migrations/
+
+# ASP.NET specific
+appsettings.*.json
+secrets.json
+
+# Rider
+.idea/
+*.sln.iml
+
+# Docker
+docker-compose.override.yml
+
+# System files
+Thumbs.db
+.DS_Store
